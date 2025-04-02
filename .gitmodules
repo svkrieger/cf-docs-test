@@ -1,6 +1,0 @@
-[submodule "cf-docs-test/content_repos/docs-dev-guide"]
-	path = content_repos/docs-dev-guide
-	url = https://github.com/cloudfoundry/docs-dev-guide.git
-[submodule "cf-docs-test/content_repos/docs-cloudfoundry-concepts"]
-	path = content_repos/docs-cloudfoundry-concepts
-	url = https://github.com/cloudfoundry/docs-cloudfoundry-concepts.git

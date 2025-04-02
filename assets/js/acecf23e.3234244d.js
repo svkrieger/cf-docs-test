@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcf_docs_test=self.webpackChunkcf_docs_test||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/cf-docs-test/blog","blogTitle":"Blog","authorsListPath":"/cf-docs-test/blog/authors"}')}}]);
