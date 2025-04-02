@@ -1,0 +1,17 @@
+{
+  "id": "cloudfoundry-concepts/index",
+  "title": "Cloud Foundry concepts",
+  "description": "<ConditionalContent",
+  "source": "@site/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/index.mdx",
+  "sourceDirName": "cloudfoundry-concepts",
+  "slug": "/cloudfoundry-concepts/",
+  "permalink": "/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Cloud Foundry concepts"
+  },
+  "sidebar": "cloudfoundryConcepts"
+}

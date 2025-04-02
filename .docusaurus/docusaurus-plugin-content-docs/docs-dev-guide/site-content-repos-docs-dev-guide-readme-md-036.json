@@ -1,0 +1,19 @@
+{
+  "id": "README",
+  "title": "Guide for Developers Pushing Apps to Cloud Foundry",
+  "description": "This is a guide for developers on deploying and troubleshooting apps running in Cloud Foundry.",
+  "source": "@site/content_repos/docs-dev-guide/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs-dev-guide/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devGuideSidebar",
+  "next": {
+    "title": "App developer guide",
+    "permalink": "/docs-dev-guide/"
+  }
+}

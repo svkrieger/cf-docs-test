@@ -1,0 +1,77 @@
+---
+title: App developer guide
+---
+
+This guide provides instructions for deploying, running, and managing apps and services with Cloud Foundry.
+
+
+## <a id='overview'></a> Overview
+
+Developing, running, and managing apps on Cloud Foundry might include:
+
+* Deploying and scaling apps with diverse languages, frameworks, and dependencies
+* Finding software services in the services Marketplace, such as databases, email, or message servers
+* Creating your own Cloud Foundry service based on an external server
+* Creating service instances and binding them to your apps
+* Streaming app logs to an external log management service
+* Troubleshooting app deployment and health
+
+If you do these things, you are a Cloud Foundry **developer**, and the contents of this guide are for you.
+
+## <a id='contents'></a> Contents
+
+* [Considerations for designing and running an app in the cloud](deploy-apps/prepare-to-deploy.html)
+
+* **cf push:** How to use `cf push` and troubleshoot when running `cf push`.
+  * [Pushing your app using Cloud Foundry CLI (cf push)](deploy-apps/deploy-app.html)
+  * [Deploying with app manifests](deploy-apps/manifest.html)
+  * [App manifest attribute reference](deploy-apps/manifest-attributes.html)
+  * [Deploying your app with Docker](deploy-apps/push-docker.html)
+  * [Deploying your large apps](deploy-apps/large-app-deploy.html)
+  * [Starting, restarting, and restaging apps](deploy-apps/start-restart-restage.html)
+  * [Pushing an app with multiple processes](multiple-processes.html)
+  * [Running cf push sub-step commands](push-sub-commands.html)
+  * [Configuring app deployments](deploy-apps/rolling-deploy.html)
+  * [Pushing apps with sidecar processes](sidecars.html)
+  * [Using blue-green deployment to reduce downtime and risk](deploy-apps/blue-green.html)
+  * [Troubleshooting app deployment and health](deploy-apps/troubleshoot-app-health.html)
+
+* **Routes and Domains:** How to configure routes and domains.
+  * [Configuring routes and domains](deploy-apps/routes-domains.html)
+  * [Configuring per-route options](custom-per-route-options.html)
+  * [Configuring Cloud Foundry to route traffic to apps on custom ports](custom-ports.html)
+  * [Routing HTTP/2 and gRPC traffic to apps](http2-protocol.html)
+
+* **Managing Apps with the cf CLI:** How to manage apps through the Cloud Foundry Command Line Interface (cf CLI).
+  * [Running tasks in your apps](using-tasks.html)
+  * [Scaling an app Using cf scale](deploy-apps/cf-scale.html)
+  * [Using app health checks](deploy-apps/healthchecks.html)
+  * [Cloud Foundry API app revisions](revisions.html)
+  * [Configuring container-to-container networking](deploy-apps/cf-networking.html)
+
+* **Managing Services:** How to use software services from your apps.
+  * [Services overview](services/index.html)
+  * [Managing service instances with the cf CLI](services/managing-services.html)
+  * [Sharing service instances](services/sharing-instances.html)
+  * [Delivering service credentials to an app](services/application-binding.html)
+  * [Managing service keys](services/service-keys.html)
+  * [Managing app requests with route services](services/route-binding.html)
+  * [Configuring Play Framework service connections](services/play-service-bindings.html)
+  * [Using an external file system (volume services)](services/using-vol-services.html)
+  * [User-provided service instances](services/user-provided.html)
+
+* **Streaming App Logs:** How to stream app logs to third-party log management services.
+  * [Streaming app logs to log management services](services/log-management.html)
+  * [Service-specific instructions for streaming app logs](services/log-management-thirdparty-svc.html)
+  * [Streaming app logs to Splunk](services/integrate-splunk.html)
+  * [Streaming app logs with Fluentd](services/fluentd.html)
+  * [Streaming app logs to Azure OMS Log Analytics](services/oms-nozzle.html)
+
+* **SSH for Apps and Services:** How to configure and use SSH access to apps and services.
+  * [App SSH overview](deploy-apps/app-ssh-overview.html)
+  * [Accessing apps with SSH](deploy-apps/ssh-apps.html)
+  * [Accessing services with SSH](deploy-apps/ssh-services.html)
+
+* [Cloud Foundry environment variables](deploy-apps/environment-variable.html): The environment variables that the Cloud Foundry runtime and buildpacks set for a deployed app.
+
+* [Cloud Controller API client libraries](capi/client-libraries.html): Libraries for calling the Cloud Controller, the executive component of Cloud Foundry, programmatically.

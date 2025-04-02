@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/index_new",
+  "source": "@site/src/pages/index_new.mdx",
+  "description": "Getting Started with",
+  "frontMatter": {
+    "breadcrumb": "Cloud Foundry Documentation"
+  },
+  "unlisted": false
+}

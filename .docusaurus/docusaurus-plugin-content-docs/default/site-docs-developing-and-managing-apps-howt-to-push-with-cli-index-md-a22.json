@@ -1,0 +1,27 @@
+{
+  "id": "developing-and-managing-apps/howt-to-push-with-cli/index",
+  "title": "How to push your app with Cloud Foundry CLI (cf push)",
+  "description": "These topics contain the procedures for deploying apps with cf push:",
+  "source": "@site/docs/developing-and-managing-apps/howt-to-push-with-cli/index.md",
+  "sourceDirName": "developing-and-managing-apps/howt-to-push-with-cli",
+  "slug": "/developing-and-managing-apps/howt-to-push-with-cli/",
+  "permalink": "/docs/developing-and-managing-apps/howt-to-push-with-cli/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developing-and-managing-apps/howt-to-push-with-cli/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "How to push your app with Cloud Foundry CLI (cf push)",
+    "owner": "cf cli"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "App developer guide",
+    "permalink": "/docs/developing-and-managing-apps/"
+  },
+  "next": {
+    "title": "Pushing your app with Cloud Foundry CLI (cf push)",
+    "permalink": "/docs/developing-and-managing-apps/howt-to-push-with-cli/deploy-app"
+  }
+}
