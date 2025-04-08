@@ -1,0 +1,28 @@
+{
+  "id": "cloudfoundry-concepts/security-and-networking/container-security",
+  "title": "Container security",
+  "description": "This topic tells you about how  secures the containers",
+  "source": "@site/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security.mdx",
+  "sourceDirName": "cloudfoundry-concepts/security-and-networking",
+  "slug": "/cloudfoundry-concepts/security-and-networking/container-security",
+  "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/cloudfoundry/docs-cloudfoundry-concepts/tree/master/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "Container security",
+    "owner": "Security"
+  },
+  "sidebar": "cloudfoundryConcepts",
+  "previous": {
+    "title": "App security groups in Cloud Foundry",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg"
+  },
+  "next": {
+    "title": "Orgs, spaces, roles, and permissions in Cloud Foundry",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/roles"
+  }
+}

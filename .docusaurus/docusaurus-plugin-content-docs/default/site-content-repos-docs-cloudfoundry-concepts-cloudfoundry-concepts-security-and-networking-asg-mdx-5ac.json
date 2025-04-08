@@ -1,0 +1,28 @@
+{
+  "id": "cloudfoundry-concepts/security-and-networking/asg",
+  "title": "App security groups in Cloud Foundry",
+  "description": "App Security Groups (ASGs) are a collection of egress rules that enable you to specify the protocols,",
+  "source": "@site/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg.mdx",
+  "sourceDirName": "cloudfoundry-concepts/security-and-networking",
+  "slug": "/cloudfoundry-concepts/security-and-networking/asg",
+  "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/cloudfoundry/docs-cloudfoundry-concepts/tree/master/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "App security groups in Cloud Foundry",
+    "owner": "Security"
+  },
+  "sidebar": "cloudfoundryConcepts",
+  "previous": {
+    "title": "Security and networking",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/"
+  },
+  "next": {
+    "title": "Container security",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security"
+  }
+}

@@ -3,90 +3,173 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/cf-docs-test/__docusaurus/debug',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug', '835'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/cf-docs-test/__docusaurus/debug/config',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/config', '97f'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/cf-docs-test/__docusaurus/debug/content',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/content', '102'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/cf-docs-test/__docusaurus/debug/globalData',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/globalData', '6fc'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/cf-docs-test/__docusaurus/debug/metadata',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/metadata', 'de6'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/cf-docs-test/__docusaurus/debug/registry',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/registry', '0f6'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/cf-docs-test/__docusaurus/debug/routes',
+    component: ComponentCreator('/cf-docs-test/__docusaurus/debug/routes', '1ad'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/cf-docs-test/blog',
+    component: ComponentCreator('/cf-docs-test/blog', 'e87'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/cf-docs-test/blog/archive',
+    component: ComponentCreator('/cf-docs-test/blog/archive', '022'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    path: '/cf-docs-test/blog/authors',
+    component: ComponentCreator('/cf-docs-test/blog/authors', '61e'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
+    path: '/cf-docs-test/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/cf-docs-test/blog/authors/all-sebastien-lorber-articles', 'a06'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
+    path: '/cf-docs-test/blog/authors/yangshun',
+    component: ComponentCreator('/cf-docs-test/blog/authors/yangshun', '0ec'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/cf-docs-test/blog/first-blog-post',
+    component: ComponentCreator('/cf-docs-test/blog/first-blog-post', '04d'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
+    path: '/cf-docs-test/blog/long-blog-post',
+    component: ComponentCreator('/cf-docs-test/blog/long-blog-post', '925'),
     exact: true
   },
   {
-    path: '/docs-cloudfoundry-concepts',
-    component: ComponentCreator('/docs-cloudfoundry-concepts', '34e'),
+    path: '/cf-docs-test/blog/mdx-blog-post',
+    component: ComponentCreator('/cf-docs-test/blog/mdx-blog-post', '82a'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/tags',
+    component: ComponentCreator('/cf-docs-test/blog/tags', '4ec'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/tags/docusaurus',
+    component: ComponentCreator('/cf-docs-test/blog/tags/docusaurus', '9a1'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/tags/facebook',
+    component: ComponentCreator('/cf-docs-test/blog/tags/facebook', '444'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/tags/hello',
+    component: ComponentCreator('/cf-docs-test/blog/tags/hello', '72d'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/tags/hola',
+    component: ComponentCreator('/cf-docs-test/blog/tags/hola', '099'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/blog/welcome',
+    component: ComponentCreator('/cf-docs-test/blog/welcome', '00f'),
+    exact: true
+  },
+  {
+    path: '/cf-docs-test/docs-cloudfoundry-concepts',
+    component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts', 'b9e'),
     routes: [
       {
-        path: '/docs-cloudfoundry-concepts',
-        component: ComponentCreator('/docs-cloudfoundry-concepts', 'a94'),
+        path: '/cf-docs-test/docs-cloudfoundry-concepts',
+        component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts', '6aa'),
         routes: [
           {
-            path: '/docs-cloudfoundry-concepts',
-            component: ComponentCreator('/docs-cloudfoundry-concepts', '42e'),
+            path: '/cf-docs-test/docs-cloudfoundry-concepts',
+            component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts', 'a97'),
             routes: [
               {
-                path: '/docs-cloudfoundry-concepts/cloudfoundry-concepts/',
-                component: ComponentCreator('/docs-cloudfoundry-concepts/cloudfoundry-concepts/', '816'),
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts', 'b5b'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/overview',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/overview', '5f4'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking', '16b'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg', '89c'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security', '7ba'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/roles',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/roles', '925'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security', '18d'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/ssh-conceptual',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/ssh-conceptual', '352'),
+                exact: true,
+                sidebar: "cloudfoundryConcepts"
+              },
+              {
+                path: '/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/understand-cf-networking',
+                component: ComponentCreator('/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/understand-cf-networking', '6c1'),
                 exact: true,
                 sidebar: "cloudfoundryConcepts"
               }
@@ -97,26 +180,32 @@ export default [
     ]
   },
   {
-    path: '/docs-dev-guide',
-    component: ComponentCreator('/docs-dev-guide', 'c04'),
+    path: '/cf-docs-test/docs-dev-guide',
+    component: ComponentCreator('/cf-docs-test/docs-dev-guide', 'c40'),
     routes: [
       {
-        path: '/docs-dev-guide',
-        component: ComponentCreator('/docs-dev-guide', '4e4'),
+        path: '/cf-docs-test/docs-dev-guide',
+        component: ComponentCreator('/cf-docs-test/docs-dev-guide', '55d'),
         routes: [
           {
-            path: '/docs-dev-guide',
-            component: ComponentCreator('/docs-dev-guide', '8ce'),
+            path: '/cf-docs-test/docs-dev-guide',
+            component: ComponentCreator('/cf-docs-test/docs-dev-guide', 'a79'),
             routes: [
               {
-                path: '/docs-dev-guide/',
-                component: ComponentCreator('/docs-dev-guide/', '5c9'),
+                path: '/cf-docs-test/docs-dev-guide',
+                component: ComponentCreator('/cf-docs-test/docs-dev-guide', '218'),
                 exact: true,
                 sidebar: "devGuideSidebar"
               },
               {
-                path: '/docs-dev-guide/',
-                component: ComponentCreator('/docs-dev-guide/', '467'),
+                path: '/cf-docs-test/docs-dev-guide/deploy-apps',
+                component: ComponentCreator('/cf-docs-test/docs-dev-guide/deploy-apps', '067'),
+                exact: true,
+                sidebar: "devGuideSidebar"
+              },
+              {
+                path: '/cf-docs-test/docs-dev-guide/deploy-apps/deploy-app',
+                component: ComponentCreator('/cf-docs-test/docs-dev-guide/deploy-apps/deploy-app', 'f41'),
                 exact: true,
                 sidebar: "devGuideSidebar"
               }
@@ -127,110 +216,8 @@ export default [
     ]
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '311'),
-    routes: [
-      {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'dbb'),
-        routes: [
-          {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'fc6'),
-            routes: [
-              {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/developing-and-managing-apps/',
-                component: ComponentCreator('/docs/developing-and-managing-apps/', '2c5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/developing-and-managing-apps/howt-to-push-with-cli/',
-                component: ComponentCreator('/docs/developing-and-managing-apps/howt-to-push-with-cli/', 'f87'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/developing-and-managing-apps/howt-to-push-with-cli/deploy-app',
-                component: ComponentCreator('/docs/developing-and-managing-apps/howt-to-push-with-cli/deploy-app', '240'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/cf-docs-test/',
+    component: ComponentCreator('/cf-docs-test/', 'dbe'),
     exact: true
   },
   {

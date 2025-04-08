@@ -7,12 +7,25 @@ export default {
   "title": "Cloud Foundry Documentation",
   "tagline": "Documentation to help you deploy and manage Cloud Foundry",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://svkrieger.github.io",
+  "baseUrl": "/cf-docs-test/",
+  "organizationName": "svkrieger",
+  "projectName": "cf-docs-test",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
+  "markdown": {
+    "format": "mdx",
+    "mermaid": false,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -22,15 +35,22 @@ export default {
     "localeConfigs": {}
   },
   "customFields": {
-    "platform_code": "CF"
+    "platform_code": "keinCF"
   },
+  "staticDirectories": [
+    "static",
+    "content_repos/docs-cloudfoundry-concepts/static"
+  ],
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "path": "content_repos/docs-cloudfoundry-concepts",
+          "routeBasePath": "docs-cloudfoundry-concepts",
+          "sidebarPath": "./sidebars-docs-cloudfoundry-concepts.ts",
+          "showLastUpdateTime": true,
+          "editUrl": "https://github.com/cloudfoundry/docs-cloudfoundry-concepts/tree/master/"
         },
         "blog": {
           "showReadingTime": true,
@@ -59,16 +79,8 @@ export default {
         "id": "docs-dev-guide",
         "path": "content_repos/docs-dev-guide",
         "routeBasePath": "docs-dev-guide",
-        "sidebarPath": "./sidebars-docs-dev-guide.ts"
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "docs-cloudfoundry-concepts",
-        "path": "content_repos/docs-cloudfoundry-concepts",
-        "routeBasePath": "docs-cloudfoundry-concepts",
-        "sidebarPath": "./sidebars-docs-cloudfoundry-concepts.ts"
+        "sidebarPath": "./sidebars-docs-dev-guide.ts",
+        "showLastUpdateTime": true
       }
     ]
   ],
@@ -82,12 +94,6 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "to": "/docs-cloudfoundry-concepts/cloudfoundry-concepts",
           "label": "Cloud Foundry Concepts",
           "position": "left"
@@ -95,11 +101,6 @@ export default {
         {
           "to": "/docs-dev-guide",
           "label": "Dev Guide",
-          "position": "left"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
           "position": "left"
         },
         {
@@ -111,31 +112,34 @@ export default {
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
+      "style": "light",
       "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
         {
           "title": "Community",
           "items": [
             {
+              "label": "Community Website",
+              "href": "https://www.cloudfoundry.org/community/"
+            },
+            {
+              "label": "Slack",
+              "href": "https://slack.cloudfoundry.org/"
+            },
+            {
+              "label": "Twitter",
+              "href": "https://twitter.com/cloudfoundry/"
+            },
+            {
+              "label": "YouTube",
+              "href": "https://www.youtube.com/channel/UC0ZYS0Y7b5oiVLvxGf4magw"
+            },
+            {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/questions/tagged/cloud-foundry?tab=Newest"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "Mailing List",
+              "href": "https://lists.cloudfoundry.org/g/announce"
             }
           ]
         },
@@ -148,12 +152,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/cloudfoundry"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "<a href='https://svkrieger.github.io/cf-docs-test/'>Cloud Foundry Documentation<a/> © 2025 <a href='https://cloudfoundry.org'>Cloud Foundry Foundation<a/>. All Rights Reserved."
     },
     "prism": {
       "theme": {
@@ -400,26 +404,11 @@ export default {
   },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    }
-  }
+  "noIndex": false
 };

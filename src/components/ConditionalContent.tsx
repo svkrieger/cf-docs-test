@@ -14,7 +14,7 @@ const ConditionalContent: React.FC<ConditionalContentProps> = ({ configKey, valu
 const configValue: string = config[configKey]
 
   // If the config value is not in the valuesMap, render a default content
-  const content = valuesMap[configValue] || 'Default content is rendered when the config value is unknown.';
+  const content = valuesMap[configValue] || valuesMap['else'];
 
   return <p>{content}</p>;
 };

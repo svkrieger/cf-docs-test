@@ -1,0 +1,28 @@
+{
+  "id": "cloudfoundry-concepts/security-and-networking/security",
+  "title": "Cloud Foundry security",
+  "description": "This topic provides you with an overview of  security.",
+  "source": "@site/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security.mdx",
+  "sourceDirName": "cloudfoundry-concepts/security-and-networking",
+  "slug": "/cloudfoundry-concepts/security-and-networking/security",
+  "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/cloudfoundry/docs-cloudfoundry-concepts/tree/master/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "Cloud Foundry security",
+    "owner": "Security"
+  },
+  "sidebar": "cloudfoundryConcepts",
+  "previous": {
+    "title": "Orgs, spaces, roles, and permissions in Cloud Foundry",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/roles"
+  },
+  "next": {
+    "title": "Cloud Foundry app SSH components and processes",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/ssh-conceptual"
+  }
+}

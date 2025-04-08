@@ -70,12 +70,20 @@ function Feature({title, Svg, description}: FeatureItem) {
 //   );
 // }
 
+{/* <div className={styles.features}>
+<Heading as="h1" className={styles.titleTop}>Getting Started with</Heading>
+<img className={styles.logoSvg} role="img" src="img/new_logo_org.png" alt="Cloud Foundry Logo" />
+<h2 className="title-details">Cloud Foundry is an open-source platform as a service (PaaS) that provides you with a choice of clouds, developer frameworks, and application services.</h2>
+</div> */}
+
 export default function HomepageFeatures(): ReactNode {
   return (
-    <div className={styles.features}>
-      <Heading as="h1" className={styles.titleTop}>Getting Started with</Heading>
-      <img className={styles.logoSvg} role="img" src="img/new_logo_org.png" alt="Cloud Foundry Logo" />
-      <h2 className="title-details">Cloud Foundry is an open-source platform as a service (PaaS) that provides you with a choice of clouds, developer frameworks, and application services.</h2>
-    </div>
+  <div className={styles.landing}>
+      <div className={styles.centeredContent}>
+          <Heading as="h1">Getting Started with</Heading>
+          <img className={styles.logoSvg} role="img" src="img/new_logo_org.png" alt="Cloud Foundry Logo" />
+          <Heading as="h2">Cloud Foundry is an open-source platform as a service (PaaS) that provides you with a choice of clouds, developer frameworks, and application services.</Heading>
+      </div>
+  </div>
   );
 }

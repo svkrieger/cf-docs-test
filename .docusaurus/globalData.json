@@ -1,92 +1,67 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/cf-docs-test/docs-cloudfoundry-concepts",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "intro",
+          "path": "/cf-docs-test/docs-cloudfoundry-concepts",
+          "mainDocId": "cloudfoundry-concepts/index",
           "docs": [
             {
-              "id": "developing-and-managing-apps/howt-to-push-with-cli/deploy-app",
-              "path": "/docs/developing-and-managing-apps/howt-to-push-with-cli/deploy-app",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/index",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "developing-and-managing-apps/howt-to-push-with-cli/index",
-              "path": "/docs/developing-and-managing-apps/howt-to-push-with-cli/",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/overview",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/overview",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "developing-and-managing-apps/index",
-              "path": "/docs/developing-and-managing-apps/",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/asg",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/asg",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/container-security",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/container-security",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/index",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/roles",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/roles",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/security",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/security",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/ssh-conceptual",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/ssh-conceptual",
+              "sidebar": "cloudfoundryConcepts"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "id": "cloudfoundry-concepts/security-and-networking/understand-cf-networking",
+              "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/security-and-networking/understand-cf-networking",
+              "sidebar": "cloudfoundryConcepts"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "cloudfoundryConcepts": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
+                "label": "Cloud Foundry concepts"
               }
             }
           }
@@ -95,23 +70,28 @@
       "breadcrumbs": true
     },
     "docs-dev-guide": {
-      "path": "/docs-dev-guide",
+      "path": "/cf-docs-test/docs-dev-guide",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs-dev-guide",
+          "path": "/cf-docs-test/docs-dev-guide",
           "mainDocId": "index",
           "docs": [
             {
-              "id": "index",
-              "path": "/docs-dev-guide/",
+              "id": "deploy-apps/deploy-app",
+              "path": "/cf-docs-test/docs-dev-guide/deploy-apps/deploy-app",
               "sidebar": "devGuideSidebar"
             },
             {
-              "id": "README",
-              "path": "/docs-dev-guide/",
+              "id": "deploy-apps/index",
+              "path": "/cf-docs-test/docs-dev-guide/deploy-apps/",
+              "sidebar": "devGuideSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/cf-docs-test/docs-dev-guide/",
               "sidebar": "devGuideSidebar"
             }
           ],
@@ -119,37 +99,8 @@
           "sidebars": {
             "devGuideSidebar": {
               "link": {
-                "path": "/docs-dev-guide/",
-                "label": "README"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "docs-cloudfoundry-concepts": {
-      "path": "/docs-cloudfoundry-concepts",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs-cloudfoundry-concepts",
-          "mainDocId": "cloudfoundry-concepts/index",
-          "docs": [
-            {
-              "id": "cloudfoundry-concepts/index",
-              "path": "/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
-              "sidebar": "cloudfoundryConcepts"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "cloudfoundryConcepts": {
-              "link": {
-                "path": "/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
-                "label": "Cloud Foundry concepts"
+                "path": "/cf-docs-test/docs-dev-guide/",
+                "label": "index"
               }
             }
           }

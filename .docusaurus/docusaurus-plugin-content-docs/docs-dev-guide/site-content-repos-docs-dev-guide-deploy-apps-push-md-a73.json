@@ -1,0 +1,27 @@
+{
+  "id": "deploy-apps/push",
+  "title": "How to push your app with Cloud Foundry CLI (cf push)",
+  "description": "These topics contain the procedures for deploying apps with cf push:",
+  "source": "@site/content_repos/docs-dev-guide/deploy-apps/push.md",
+  "sourceDirName": "deploy-apps",
+  "slug": "/deploy-apps/push",
+  "permalink": "/cf-docs-test/docs-dev-guide/deploy-apps/push",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "How to push your app with Cloud Foundry CLI (cf push)",
+    "owner": "cf cli"
+  },
+  "sidebar": "devGuideSidebar",
+  "previous": {
+    "title": "Pushing your app with Cloud Foundry CLI (cf push)",
+    "permalink": "/cf-docs-test/docs-dev-guide/deploy-apps/deploy-app"
+  },
+  "next": {
+    "title": "App developer guide",
+    "permalink": "/cf-docs-test/docs-dev-guide/"
+  }
+}

@@ -5,7 +5,7 @@
   "source": "@site/docs/developing-and-managing-apps/index.md",
   "sourceDirName": "developing-and-managing-apps",
   "slug": "/developing-and-managing-apps/",
-  "permalink": "/docs/developing-and-managing-apps/",
+  "permalink": "/cf-docs-test/docs/developing-and-managing-apps/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developing-and-managing-apps/index.md",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "permalink": "/cf-docs-test/docs/tutorial-extras/translate-your-site"
   },
   "next": {
     "title": "How to push your app with Cloud Foundry CLI (cf push)",
-    "permalink": "/docs/developing-and-managing-apps/howt-to-push-with-cli/"
+    "permalink": "/cf-docs-test/docs/developing-and-managing-apps/howt-to-push-with-cli/"
   }
 }

@@ -1,5 +1,7 @@
 import type {ReactNode} from 'react';
 import CodeBlock from '@theme/CodeBlock';
+import {config} from '@site/config'
+import React from 'react';
 
 export function AppDomain(): ReactNode {
     return (
@@ -32,7 +34,7 @@ export function url_path(): ReactNode {
 }
 
 export function product_link(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function product_url(): ReactNode {
@@ -55,8 +57,8 @@ export function gtm_account_id(): ReactNode {
   return "GTM-MM86KCJ";
 }
 
-export function platform_name(): ReactNode {
-  return "Cloud Foundry";
+export function PlatformName(): ReactNode {
+  return <>Cloud Foundry</>;
 }
 
 export function platform_old(): ReactNode {
@@ -127,7 +129,7 @@ export function windows_runtime_abbr(): ReactNode {
   return "CF";
 }
 
-export function company_name(): ReactNode {
+export function CompanyName(): ReactNode {
   return "Cloud Foundry";
 }
 
@@ -151,12 +153,12 @@ export function add_volumes_link(): ReactNode {
   return "For more information, see [Adding Volume Services to your Deployment](../../running/deploy-vol-services.html).";
 }
 
-export function admin_read_only_role(): ReactNode {
-  return "<ul><li>**Admin Read-Only**: Read-only access to all Cloud Controller API resources. Assigned the `cloud_controller.admin_read_only` scope in UAA.</li></ul>";
+export function AdminReadOnlyRole(): ReactNode {
+  return <><ul><li>**Admin Read-Only**: Read-only access to all Cloud Controller API resources. Assigned the `cloud_controller.admin_read_only` scope in UAA.</li></ul></>;
 }
 
-export function admin_role(): ReactNode {
-  return "<ul><li>**Admin**: Perform operational actions on all orgs and spaces using the Cloud Controller API. Assigned the `cloud_controller.admin` scope in UAA.</li></ul>";
+export function AdminRole(): ReactNode {
+  return <><ul><li>**Admin**: Perform operational actions on all orgs and spaces using the Cloud Controller API. Assigned the `cloud_controller.admin` scope in UAA.</li></ul></>;
 }
 
 export function admin(): ReactNode {
@@ -167,8 +169,8 @@ export function api_endpoint_book(): ReactNode {
   return "For more information, see [Identifying your Cloud Foundry API Endpoint and Version](http://docs.cloudfoundry.org/running/cf-api-endpoint.html).";
 }
 
-export function api_endpoint(): ReactNode {
-  return '<a href="http://docs.cloudfoundry.org/running/cf-api-endpoint.html">the URL of the Cloud Controller in your Cloud Foundry instance</a>';
+export function APIEndpoint(): ReactNode {
+  return <><a href="http://docs.cloudfoundry.org/running/cf-api-endpoint.html">the URL of the Cloud Controller in your Cloud Foundry instance</a></>;
 }
 
 export function api_v1_format(): ReactNode {
@@ -199,12 +201,12 @@ export function app_sec_group_desc(): ReactNode {
   return "`description`   |This is an optional field that contains useful text for operators to manage security group rules. This field is available in Cloud Foundry v238 and later.";
 }
 
-export function app_sec_groups_default(): ReactNode {
-  return "Only allowing outbound connections to public addresses from app containers. This is the original default. Admins can change this behavior by configuring ASGs.";
+export function AppSecGroupsDefault(): ReactNode {
+  return <>Only allowing outbound connections to public addresses from app containers. This is the original default. Admins can change this behavior by configuring ASGs.</>;
 }
 
-export function app_sec_groups_link(): ReactNode {
-  return "For more information about ASGs, see [App Security Groups](../adminguide/app-sec-groups.html).";
+export function AppSecGroupsLink(): ReactNode {
+  return <>For more information about ASGs, see [App Security Groups](../adminguide/app-sec-groups.html)</>;
 }
 
 export function app_sec_groups(): ReactNode {
@@ -212,7 +214,11 @@ export function app_sec_groups(): ReactNode {
 }
 
 export function asg_notifications_prereq(): ReactNode {
-  return "null";
+  return <></>;
+}
+
+export function AsgNote(): ReactNode {
+  return <></>;
 }
 
 export function az(): ReactNode {
@@ -220,7 +226,11 @@ export function az(): ReactNode {
 }
 
 export function azs(): ReactNode {
-  return "null";
+  return <></>;
+}
+
+export function OpsManager(): ReactNode {
+  return <></>;
 }
 
 export function azure_deploy(): ReactNode {
@@ -228,31 +238,31 @@ export function azure_deploy(): ReactNode {
 }
 
 export function bbr_ert(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function bbr_space(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function bbr_rn_intro(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function bbr_rn_compatibility(): ReactNode {
-  return "null";
+  return <></>;
 }
 
-export function billing_manager_role_note(): ReactNode {
-  return "::: info The Billing Manager role is only relevant for Cloud Foundry environments deployed with a billing engine.:::";
+export function BillingManagerRoleNote(): ReactNode {
+  return <>::: info The Billing Manager role is only relevant for Cloud Foundry environments deployed with a billing engine.:::</>;
 }
 
-export function billing_manager_role(): ReactNode {
-  return "<ul><li>**Org Billing Managers**: Create and manage billing account and payment information.</li></ul>";
+export function BillingManagerRole(): ReactNode {
+  return <><ul><li>**Org Billing Managers**: Create and manage billing account and payment information.</li></ul></>;
 }
 
 export function blobstore_kb(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function buildpacks_link(): ReactNode {
@@ -280,11 +290,11 @@ export function cli_v6(): ReactNode {
 }
 
 export function cloud_controller_dea_agent(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function cloud_controller_dea_algorithm(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function cloud_controller_logging(): ReactNode {
@@ -295,20 +305,20 @@ export function collector_singleton(): ReactNode {
   return "The singleton Collector and Compilation components do not affect platform availability.";
 }
 
-export function concepts_sf_vs_full_header(): ReactNode {
-  return "null";
+export function ConceptsSfVsFullHeader(): ReactNode {
+  return <></>;
 }
 
-export function concepts_product_model_header(): ReactNode {
-  return "null";
+export function ConceptsProductModelHeader(): ReactNode {
+  return <></>;
 }
 
-export function concepts_product_model_image(): ReactNode {
-  return "null";
+export function ConceptsProductModelImage(): ReactNode {
+  return <></>;
 }
 
-export function small_footprint_comparison(): ReactNode {
-  return "null";
+export function SmallFootprintComparison(): ReactNode {
+  return <></>;
 }
 
 export function concepts_product_model_text(): ReactNode {
@@ -319,24 +329,24 @@ export function console_2(): ReactNode {
   return "If you have a Cloud Foundry account, see [Identifying your Cloud Foundry API Endpoint and Version](http://docs.cloudfoundry.org/running/cf-api-endpoint.html) to determine the URL of the Cloud Controller in your Cloud Foundry instance. Click **Manage Cloud...** to add this URL to your Cloud Foundry account. Validate the account and continue through the wizard.";
 }
 
-export function console_links(): ReactNode {
-  return "null";
+export function ConsoleLinks(): ReactNode {
+  return <></>;
 }
 
 export function contact_support(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function container_metrics(): ReactNode {
   return "This property is set to true by default in your [BOSH release](https://github.com/cloudfoundry/cf-syslog-drain-release/blob/v6.x/jobs/adapter/spec#L61-L66).<br><br><br>  Once `scalablesyslog.adapter.metrics_to_syslog_enabled` is set to `true`, run the following cf CLI command to include container metrics in your syslog drain:<pre>cf drain APP-NAME DRAIN-URL --type metrics --drain-name YOUR-SYSLOG-DRAIN</pre>Where:<br> <ul><li>`APP-NAME` is your app name.</li> <li>`YOUR-SYSLOG-DRAIN` is the name of your syslog drain.</li><li>`DRAIN-URL` is the URL of your syslog drain.</li></ul>";
 }
 
-export function container_network_link(): ReactNode {
-  return 'For information about administering container-to-container network policies, see <a href="../devguide/deploy-apps/cf-networking.html">Configuring Container-to-Container Networking</a>.';
+export function ContainerNetworkLink(): ReactNode {
+  return <>For information about administering container-to-container network policies, see <a href="../devguide/deploy-apps/cf-networking.html">Configuring Container-to-Container Networking</a></>;
 }
 
 export function cookies_shared_domain_1(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function cookies_shared_domain_2(): ReactNode {
@@ -352,7 +362,7 @@ export function cse_id(): ReactNode {
 }
 
 export function custom_load_balancer(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function custom_services(): ReactNode {
@@ -368,7 +378,7 @@ export function custom_stack(): ReactNode {
 }
 
 export function dea_diego_table_row(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function dea_diego_version(): ReactNode {
@@ -422,7 +432,7 @@ export function DefaultASGs(): ReactNode {
 }
 
 export function dev_console_1(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function dev_console_2(): ReactNode {
@@ -430,19 +440,19 @@ export function dev_console_2(): ReactNode {
 }
 
 export function dev_console_3(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function dev_console_4(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function dev_console_5(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function dev_console_note(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function diego_architecture(): ReactNode {
@@ -478,7 +488,7 @@ export function domain_name(): ReactNode {
 }
 
 export function domains_shared_domains(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function ecr_support_cf_12_1(): ReactNode {
@@ -486,7 +496,7 @@ export function ecr_support_cf_12_1(): ReactNode {
 }
 
 export function email_notifications(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function enable_c2c_discovery(): ReactNode {
@@ -542,7 +552,7 @@ export function external_ips(): ReactNode {
 }
 
 export function external_vol_smb_note(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function external_vol_win_note(): ReactNode {
@@ -554,11 +564,11 @@ export function ga_account_id(): ReactNode {
 }
 
 export function gen_GSG(): ReactNode {
-  return "null";
+  return <></>;
 }
 
-export function global_auditor_role(): ReactNode {
-  return "<ul><li>**Global Auditor**: Read-only access to all Cloud Controller API resources except for secrets, such as environment variables. The Global Auditor role cannot access those values. Assigned the `cloud_controller.global_auditor` scope in UAA.</li></ul>";
+export function GlobalAuditorRole(): ReactNode {
+  return <><ul><li>**Global Auditor**: Read-only access to all Cloud Controller API resources except for secrets, such as environment variables. The Global Auditor role cannot access those values. Assigned the `cloud_controller.global_auditor` scope in UAA.</li></ul></>;
 }
 
 export function grant_devs_c2c(): ReactNode {
@@ -589,8 +599,8 @@ export function info_loc(): ReactNode {
   return "In your Cloud Foundry deployment manifest";
 }
 
-export function ipsec_note(): ReactNode {
-  return "null";
+export function IpsecNote(): ReactNode {
+  return <></>;
 }
 
 export function keepalive(): ReactNode {
@@ -630,7 +640,7 @@ export function link_configure_trusted_certificates(): ReactNode {
 }
 
 export function log_management(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function logg_forwarding(): ReactNode {
@@ -650,15 +660,15 @@ export function loggregator_firehose_link(): ReactNode {
 }
 
 export function loggregator_log_cache_link(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function loggregator_log_cache_link_syslog_scale(): ReactNode {
   return "For guidance on scaling, see the [README](https://github.com/cloudfoundry/cf-syslog-drain-release/blob/master/README.md) for the CF Syslog Drain Release repository on GitHub.";
 }
 
-export function manage_iso_seg_link(): ReactNode {
-  return "For information about how to create and manage isolation segments in a Cloud Foundry deployment, see [Managing Isolation Segments](../adminguide/isolation-segments.html).";
+export function ManageIsoSegLink(): ReactNode {
+  return <>For information about how to create and manage isolation segments in a Cloud Foundry deployment, see [Managing Isolation Segments](../adminguide/isolation-segments.html).</>;
 }
 
 export function manifest_vs_cli_asg(): ReactNode {
@@ -702,15 +712,19 @@ export function notifications_link(): ReactNode {
 }
 
 export function om_resurrector_header(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function om_resurrector_text(): ReactNode {
-  return "null";
+  return <></>;
+}
+
+export function OrAppsMan(): ReactNode {
+  return <></>;
 }
 
 export function or_apps_man2(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function per_route_lb_version(): ReactNode {
@@ -742,7 +756,7 @@ export function public_host(): ReactNode {
 }
 
 export function pw_policy(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function python_cf245only(): ReactNode {
@@ -753,7 +767,7 @@ export function quota_resource(): ReactNode {
   return "quota space";
 }
 
-export function recommended_by(): ReactNode {
+export function RecommendedBy(): ReactNode {
   return "Cloud Foundry";
 }
 
@@ -782,7 +796,7 @@ export function open_service_broker_rn(): ReactNode {
 }
 
 export function route_services_apps_manager(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function route_services_config(): ReactNode {
@@ -864,11 +878,11 @@ export function scale_table(): ReactNode {
 }
 
 export function scaling_ert_db(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function scaling_ert(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function self_signed(): ReactNode {
@@ -903,8 +917,8 @@ export function ssh_service(): ReactNode {
   return "MySQL";
 }
 
-export function ssl(): ReactNode {
-  return "null";
+export function SSL(): ReactNode {
+  return <></>;
 }
 
 export function setting_rate_limit_cloud_api(): ReactNode {
@@ -928,7 +942,7 @@ export function tcp_iaas(): ReactNode {
 }
 
 export function tcp_port_review(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function tcp_port(): ReactNode {
@@ -956,7 +970,7 @@ export function upload_custom_buildpacks(): ReactNode {
 }
 
 export function user_org_creation(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function v3_cli_versions(): ReactNode {
@@ -964,7 +978,7 @@ export function v3_cli_versions(): ReactNode {
 }
 
 export function warden_garden(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function zipkin_enable(): ReactNode {
@@ -992,19 +1006,19 @@ export function ssl_lb_link(): ReactNode {
 }
 
 export function ssl_haproxy(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function tasks_ai(): ReactNode {
-  return "null";
+  return <></>;
 }
 
-export function cf_networking(): ReactNode {
-  return "For more information about how to enable and use container-to-container networking, see [Configuring Container-to-Container Networking](../devguide/deploy-apps/cf-networking.html).<p>When the container-to-container networking feature is disabled, all app-to-app traffic must go through the Gorouter.</p>";
+export function CFNetworking(): ReactNode {
+  return <>For more information about how to enable and use container-to-container networking, see [Configuring Container-to-Container Networking](../devguide/deploy-apps/cf-networking.html).<p>When the container-to-container networking feature is disabled, all app-to-app traffic must go through the Gorouter.</p></>;
 }
 
 export function isolation_segments_create(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function install_isolation_segments(): ReactNode {
@@ -1024,19 +1038,27 @@ export function all_metrics_links(): ReactNode {
 }
 
 export function ha_ert(): ReactNode {
-  return "null";
+  return <></>;
+}
+
+export function ComplianceLinks(): ReactNode {
+  return <></>;
+}
+
+export function AppSvcLinks(): ReactNode {
+  return <></>;
 }
 
 export function route_services_appsman1(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function route_services_appsman2(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function user_provided_apps_man(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function xfcc_always_forward(): ReactNode {
@@ -1172,7 +1194,7 @@ export function network_policy_quota_config(): ReactNode {
 }
 
 export function human_readable_timestamp(): ReactNode {
-  return "null";
+  return <></>;
 }
 
 export function find_metric_name_source_id(): ReactNode {

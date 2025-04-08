@@ -1,0 +1,23 @@
+{
+  "id": "cloudfoundry-concepts/index",
+  "title": "Cloud Foundry concepts",
+  "description": "<ConditionalContent",
+  "source": "@site/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/index.mdx",
+  "sourceDirName": "cloudfoundry-concepts",
+  "slug": "/cloudfoundry-concepts/",
+  "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/cloudfoundry/docs-cloudfoundry-concepts/tree/master/content_repos/docs-cloudfoundry-concepts/cloudfoundry-concepts/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "Cloud Foundry concepts"
+  },
+  "sidebar": "cloudfoundryConcepts",
+  "next": {
+    "title": "Cloud Foundry overview",
+    "permalink": "/cf-docs-test/docs-cloudfoundry-concepts/cloudfoundry-concepts/overview"
+  }
+}
